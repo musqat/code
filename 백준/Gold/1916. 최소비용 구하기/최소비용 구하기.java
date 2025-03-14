@@ -16,35 +16,35 @@ public class Main {
 
         @Override
         public int compareTo(Node o) {
-            return this.weight - o.weight;
+            return Integer.compare(this.weight, o.weight);
         }
     }
 
-    public static void dijkstra(int v, List<List<Node>> graph, int start, int end) {
+    public static int dijkstra(int v, List<List<Node>> graph, int start, int end) {
         PriorityQueue<Node> pq = new PriorityQueue<>();
         int[] dist = new int[v + 1];
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[start] = 0;
-
         pq.offer(new Node(start, 0));
 
         while (!pq.isEmpty()){
             Node curNode = pq.poll();
             int cur = curNode.to;
 
-            if (curNode.weight > dist[cur]){
-                continue;
+            if (cur == end) {
+                return dist[cur];
             }
+
             for(Node adj : graph.get(cur)){
-                if (dist[adj.to] > dist[cur] + adj.weight){
-                    dist[adj.to] = dist[cur] + adj.weight;
-                    pq.offer(new Node(adj.to, dist[adj.to]));
+                int newDist = dist[cur] + adj.weight;
+                if (newDist < dist[adj.to]) {
+                    dist[adj.to] = newDist;
+                    pq.offer(new Node(adj.to, newDist));
                 }
             }
         }
 
-            System.out.println(dist[end]);
-
+        return dist[end];
     }
 
     public static void main(String[] args) throws IOException {
@@ -52,11 +52,10 @@ public class Main {
 //        Scanner sc = new Scanner(System.in);
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-
         int V = Integer.parseInt(st.nextToken());
         int E = Integer.parseInt(br.readLine());
 
-        List<List<Node>> graph = new ArrayList<>();
+        List<List<Node>> graph = new ArrayList<>(V + 1);
         for (int i = 0; i <= V; i++) {
             graph.add(new ArrayList<>());
         }
@@ -72,7 +71,8 @@ public class Main {
         int start = Integer.parseInt(st.nextToken());
         int end = Integer.parseInt(st.nextToken());
 
-        dijkstra(V, graph, start, end);
+        System.out.println(dijkstra(V, graph, start, end));
+
 
     }
 
