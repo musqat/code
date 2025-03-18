@@ -8,7 +8,6 @@ import static javax.swing.text.html.HTML.Attribute.N;
 public class Main {
     static int L, C;
     static char[] letters;
-    static List<String> result = new ArrayList<>();
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -24,26 +23,26 @@ public class Main {
         }
 
         Arrays.sort(letters);
+        char[] password = new char[L];
+        dfs(0, 0, password, 0, 0);
 
-        dfs(0, 0, "", 0, 0);
-
-        for (String password : result){
-            System.out.println(password);
-        }
     }
 
-    static void dfs(int idx, int depth, String password, int vowelCount, int consonantCount){
+    static void dfs(int idx, int depth, char[] password, int vowelCount, int consonantCount){
         if (depth == L){
             if (vowelCount >= 1 && consonantCount >= 2){
-                result.add(password);
+                System.out.println(new String(password));
             }
+            return;
         }
+
         for (int i = idx; i < C ; i++) {
             char ch = letters[i];
+            password[depth] = ch;
             if (isVowel(ch)){
-                dfs(i + 1, depth + 1, password + ch, vowelCount + 1, consonantCount);
+                dfs(i + 1, depth + 1, password, vowelCount + 1, consonantCount);
             }else {
-                dfs(i + 1, depth + 1, password + ch, vowelCount, consonantCount  + 1);
+                dfs(i + 1, depth + 1, password, vowelCount, consonantCount  + 1);
             }
 
         }
