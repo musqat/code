@@ -1,37 +1,36 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class Main {
+
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int N = sc.nextInt();
-        int[] arr = new int[N];
+        int A = Integer.parseInt(br.readLine());
+        int[] arr = new int[A];
+        int[] dp = new int[A];
 
-        for (int i = 0; i < N; i++) {
-            arr[i] = sc.nextInt();
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < A; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
         }
 
-        int[] dp = new int[N];
-        Arrays.fill(dp, 1);
-
-        for (int i = 1; i < N; i++) {
+        for (int i = 0; i < A; i++) {
+            dp[i] = 1;
             for (int j = 0; j < i; j++) {
                 if (arr[j] < arr[i]) {
                     dp[i] = Math.max(dp[i], dp[j] + 1);
                 }
             }
         }
-        
-        int lis = 0;
-        for(int length : dp){
-            if (length > lis){
-                lis = length;
-            }
+
+        int max = 0;
+        for (int i = 0; i < A; i++) {
+            max = Math.max(max, dp[i]);
         }
 
-        System.out.println(lis);
+        System.out.println(max);
     }
-
-
 }
