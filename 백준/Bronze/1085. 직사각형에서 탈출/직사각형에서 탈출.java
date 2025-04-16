@@ -14,10 +14,8 @@ public class Main {
         int y = Integer.parseInt(st.nextToken());
         int w = Integer.parseInt(st.nextToken());
         int h = Integer.parseInt(st.nextToken());
-
-        int min = Math.min(Math.min(x, w- x), Math.min(y, h -y));
-
-        System.out.println(min);
+        
+        System.out.println(Math.min(Math.min(x, w- x), Math.min(y, h -y)));
     }
 
 }
