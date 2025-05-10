@@ -5,13 +5,13 @@ import java.util.*;
 
 public class Main {
     static boolean[] check = new boolean[10036];
-
     public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         int n = 1;
 
-        while (n <= 10000) {
-            if (!check[n]) {
+        while (n <= 10000){
+            if (!check[n]){
                 sb.append(n).append("\n");
             }
             selfNum(n);
@@ -20,14 +20,18 @@ public class Main {
         System.out.println(sb);
     }
 
-    static void selfNum(int n) {
-        int sum = 0;
-        sum += n;
-        String str = String.valueOf(n);
-        for (int i = 0; i < str.length(); i++) {
-            sum += str.charAt(i) - '0';
+    static void selfNum(int n ){
+        int sum = n;
+        int temp = n;
+
+        while (temp > 0) {
+            sum += temp % 10;
+            temp /= 10;
         }
-        check[sum] = true;
+
+        if (sum < check.length) {
+            check[sum] = true;
+        }
     }
 
 }
