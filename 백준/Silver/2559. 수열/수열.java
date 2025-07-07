@@ -14,21 +14,25 @@ public class Main {
         int K = Integer.parseInt(st.nextToken());
 
         int[] arr = new int[N];
-        int sum = Integer.MIN_VALUE;
 
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
-        for (int i = 0; i <= N - K; i++) {
-            int tmp = 0;
-            for (int j = 0; j < K; j++) {
-                tmp += arr[i + j];
-            }
-            sum = Math.max(sum, tmp);
+        int windowSum = 0;
+
+        for (int i = 0; i < K; i++) {
+            windowSum += arr[i];
+        }
+        
+        int maxSum = windowSum;
+
+        for (int i = K; i < N; i++) {
+            windowSum = windowSum - arr[i -K] + arr[i];
+            maxSum = Math.max(maxSum, windowSum);
         }
 
-        System.out.println(sum);
+        System.out.println(maxSum);
     }
 }
