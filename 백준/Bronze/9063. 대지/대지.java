@@ -13,20 +13,24 @@ public class Main {
             return;
         }
 
-        int[] x = new int[N];
-        int[] y = new int[N];
+        int minX = Integer.MAX_VALUE;
+        int maxX = Integer.MIN_VALUE;
+        int minY = Integer.MAX_VALUE;
+        int maxY = Integer.MIN_VALUE;
+
         for (int i = 0; i < N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            x[i] = Integer.parseInt(st.nextToken());
-            y[i] = Integer.parseInt(st.nextToken());
+            int x = Integer.parseInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
+
+            minX = Math.min(minX, x);
+            maxX = Math.max(maxX, x);
+            minY = Math.min(minY, y);
+            maxY = Math.max(maxY, y);
         }
 
-        Arrays.sort(x);
-        Arrays.sort(y);
-
-        int xLen = x[N - 1] -  x[0];
-        int yLen = y[N - 1] -  y[0];
-
-        System.out.println(xLen * yLen);
+        int width = maxX - minX;
+        int height = maxY - minY;
+        System.out.println(width * height);
     }
 }
