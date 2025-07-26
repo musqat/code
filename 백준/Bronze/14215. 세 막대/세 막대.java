@@ -19,12 +19,7 @@ public class Main {
             arr[2] = arr[0] + arr[1] - 1;
         }
 
-        int result = 0;
-        for (int i = 0; i < 3; i++) {
-            result += arr[i];
-        }
-
-        System.out.println(result);
+        System.out.println(arr[0] + arr[1] + arr[2]);
 
     }
 }
