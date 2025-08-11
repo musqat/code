@@ -12,8 +12,7 @@ public class Main {
         long b = Integer.parseInt(st.nextToken());
 
 
-        if (b % a == 0) System.out.println(b);
-        else System.out.println(lcm(a,b));
+        System.out.println(lcm(a,b));
     }
 
     static long gcd(long a, long b){
