@@ -4,25 +4,36 @@ import java.util.Set;
 
 class Solution {
     public int solution(int n, int[] lost, int[] reserve) {
-        Set<Integer> lostSet = new HashSet<>();
-        Set<Integer> reserveSet = new HashSet<>();
+        int[] students = new int[n + 2];
+        Arrays.fill(students, 1);
 
-        for (int l : lost) lostSet.add(l);
-        for (int r : reserve) reserveSet.add(r);
-
-        lostSet.removeIf(reserveSet::remove);
-        
-        Integer[] reserveArr = reserveSet.toArray(new Integer[0]);
-        Arrays.sort(reserveArr);
-
-        for (int r : reserveArr) {
-            if (lostSet.contains(r - 1)) {
-                lostSet.remove(r - 1);
-            } else if (lostSet.contains(r + 1)) {
-                lostSet.remove(r + 1);
-            }
+        for (int l : lost){
+            students[l]--;
         }
 
-        return n - lostSet.size();
+        for (int r : reserve){
+            students[r]++;
+        }
+
+        for (int i = 1; i <= n; i++) {
+            if (students[i] >= 2){
+                if (students[i - 1] == 0){
+                    students[i -1]++;
+                    students[i]--;
+                }else if (students[i + 1] == 0){
+                    students[i + 1]++;
+                    students[i]--;
+                }
+            }
+        }
+        
+        int answer = 0;
+        for (int i = 1; i <= n; i++) {
+            if (students[i] >0) answer++;
+        }
+        
+        return answer;
+
+
     }
 }
