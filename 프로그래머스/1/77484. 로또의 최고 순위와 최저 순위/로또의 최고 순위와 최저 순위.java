@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
     public int[] solution(int[] lottos, int[] win_nums) {
         int[] answer = new int[2];
@@ -5,15 +8,17 @@ class Solution {
         int count = 0;
         int zeroCount = 0;
 
-        for (int i = 0; i < lottos.length; i++) {
-            if (lottos[i] == 0){
-                zeroCount++;
-            }
+        Set<Integer> winSet = new HashSet<>();
 
-            for (int j = 0; j < win_nums.length; j++) {
-                if (win_nums[j] == lottos[i]){
-                       count++;
-                }
+        for (int num : win_nums){
+            winSet.add(num);
+        }
+
+        for (int num : lottos){
+            if (num == 0){
+                zeroCount++;
+            }else if (winSet.contains(num)){
+                count++;
             }
         }
 
