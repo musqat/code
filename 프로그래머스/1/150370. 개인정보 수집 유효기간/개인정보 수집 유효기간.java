@@ -4,41 +4,35 @@ import java.util.List;
 import java.util.Map;
 
 class Solution {
-    static Map<String, Integer> map = new HashMap<>();
     public int[] solution(String today, String[] terms, String[] privacies) {
         List<Integer> list = new ArrayList<>();
+        Map<String, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < terms.length; i++) {
-            String[] term = terms[i].split(" ");
-            String type = term[0];
-            int time = Integer.parseInt(term[1]);
-            map.put(type, time);
+        for (String t : terms) {
+            String[] part = t.split(" ");
+            map.put(part[0], Integer.parseInt(part[1]));
         }
+        int todayDays = dateToday(today);
 
         for (int i = 0; i < privacies.length; i++) {
-            String[] pri = privacies[i].split(" ");
-            if (calculate(today, pri[0], pri[1])){
+            String[] part = privacies[i].split(" ");
+            String collectedDate = part[0];
+            String termType = part[1];
+
+            int expireDays = dateToday(collectedDate) + map.get(termType) * 28;
+
+            if (todayDays >= expireDays) {
                 list.add(i + 1);
-            };
+            }
         }
-        return list.stream().mapToInt(x -> x).toArray();
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 
-
-    private boolean calculate(String date, String day, String type) {
-        int gap = map.get(type) * 28; // A -> 6;
-
-        int today = toDays(date);
-        int priday = toDays(day) + gap;
-
-        return today >= priday; // 기간 만료
-    }
-
-    private int toDays(String d) {
-        String[] date = d.split("\\.");
-        return Integer.parseInt(date[0]) * 12 * 28
-                + Integer.parseInt(date[1]) * 28
-                + Integer.parseInt(date[2]);
+    private int dateToday(String d) {
+        String[] part = d.split("\\.");
+        return Integer.parseInt(part[0]) * 12 * 28
+                + Integer.parseInt(part[1]) * 28
+                + Integer.parseInt(part[2]);
     }
 
 }
