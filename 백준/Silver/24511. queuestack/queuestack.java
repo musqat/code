@@ -7,35 +7,32 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N =  Integer.parseInt(br.readLine());
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        int[] type = new int[N];
-        int[] storage = new int[N];
+
+        StringTokenizer type = new StringTokenizer(br.readLine());
+        StringTokenizer storage = new StringTokenizer(br.readLine());
+
+        List<Long> qs = new ArrayList<>();
+
         for (int i = 0; i < N; i++) {
-            type[i] = Integer.parseInt(st.nextToken());
-        }
-        st = new StringTokenizer(br.readLine());
-        for (int i = 0; i <N; i++) {
-            storage[i] = Integer.parseInt(st.nextToken());
+            int t = Integer.parseInt(type.nextToken());
+            long b =  Long.parseLong(storage.nextToken());
+            if (t == 0) qs.add(b);
         }
 
-        StringBuilder sb = new StringBuilder();
+        int K = qs.size();
+
         int M = Integer.parseInt(br.readLine());
-        st = new StringTokenizer(br.readLine());
+
+        StringTokenizer st = new StringTokenizer(br.readLine());
         long[] C = new long[M];
         for (int i = 0; i < M; i++) {
             C[i] = Long.parseLong(st.nextToken());
         }
-        List<Long> qs = new ArrayList<>();
 
-        for (int i = 0; i < N; i++) {
-            if (type[i] == 0) qs.add((long) storage[i]);
-        }
-        int K = qs.size();
-
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < M; i++) {
-            if (i < K) sb.append(qs.get(K -1 - i));
-            else sb.append(C[i - K]);
-            if (i < M - 1) sb.append(" ");
+            if (i > 0) sb.append(" ");
+            sb.append(i < K ? qs.get(K -1 - i) : C[i - K]);
         }
 
         System.out.println(sb);
