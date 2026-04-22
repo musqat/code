@@ -1,55 +1,37 @@
 name: Organize LeetCode Problems
 
 on:
+  workflow_dispatch:
   push:
-    branches: [main]
+    paths:
+      - '[0-9][0-9][0-9][0-9]-*/**'
+
+permissions:
+  contents: write
 
 jobs:
   move-to-leetcode:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Move LeetCode folders to leetcode/
         run: |
-          moved=0
+          shopt -s nullglob
+          mkdir -p leetcode
           for dir in [0-9][0-9][0-9][0-9]-*/; do
             dir="${dir%/}"
             echo "Moving $dir -> leetcode/$dir"
-            mkdir -p leetcode
             mv "$dir" "leetcode/$dir"
-            moved=1
           done
 
-          if [ "$moved" -eq 1 ]; then
-            # LeetCode Topics 블록을 leetcode/README.md로 이동
-            awk '/<!---LeetCode Topics Start-->/,/<!---LeetCode Topics End-->/' README.md > leetcode/README.md
+      - name: Update README files
+        run: |
+          awk '/<!---LeetCode Topics Start-->/,/<!---LeetCode Topics End-->/' README.md > leetcode/README.md
+          sed -i 's|/tree/master/\([0-9]\{4\}-\)|/tree/main/leetcode/\1|g;
+                  s|/tree/main/\([0-9]\{4\}-\)|/tree/main/leetcode/\1|g' leetcode/README.md
+          printf '# code\n알고리즘 문제풀이 저장소입니다.\n\n## Baekjoon\n\n## Programmers\n\n## LeetCode\n' > README.md
 
-            # leetcode/README.md 링크 경로 수정
-            sed -i \
-              's|/tree/master/\([0-9]\{4\}-\)|/tree/main/leetcode/\1|g;
-               s|/tree/main/\([0-9]\{4\}-\)|/tree/main/leetcode/\1|g' \
-              leetcode/README.md
-
-            # 루트 README 고정 내용으로 복원
-            cat > README.md << 'EOF'
-# code
-알고리즘 문제풀이 저장소입니다.
-
-## Baekjoon
-
-## Programmers
-
-## LeetCode
-EOF
-
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add -A
-            git commit -m "chore: move LeetCode problems to leetcode/"
-            git push
-          else
-            echo "No LeetCode folders found in root."
-          fi
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: move LeetCode problems to leetcode/"
