@@ -14,16 +14,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Move LeetCode folders to leetcode/
         run: |
-          shopt -s nullglob
+          echo "Current directory contents:"
+          ls -la
+
           mkdir -p leetcode
-          for dir in [0-9][0-9][0-9][0-9]-*/; do
-            dir="${dir%/}"
-            echo "Moving $dir -> leetcode/$dir"
-            mv "$dir" "leetcode/$dir"
+
+          found=0
+          for d in [0-9][0-9][0-9][0-9]-*; do
+            if [ -d "$d" ]; then
+              echo "Moving directory: $d"
+              mv "$d" "leetcode/" && found=1
+            fi
           done
+
+          if [ $found -eq 0 ]; then
+            echo "No matching directories found to move"
+          fi
 
       - name: Update README files
         run: |
@@ -32,6 +43,14 @@ jobs:
                   s|/tree/main/\([0-9]\{4\}-\)|/tree/main/leetcode/\1|g' leetcode/README.md
           printf '# code\n알고리즘 문제풀이 저장소입니다.\n\n## Baekjoon\n\n## Programmers\n\n## LeetCode\n' > README.md
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: move LeetCode problems to leetcode/"
+      - name: Commit & Push changes
+        run: |
+          if git status --porcelain | grep .; then
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add -A
+            git commit -m "chore: move LeetCode problems to leetcode/"
+            git push
+          else
+            echo "No changes to commit"
+          fi
