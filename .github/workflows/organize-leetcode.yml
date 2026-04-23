@@ -3,8 +3,7 @@ name: Organize LeetCode Problems
 on:
   workflow_dispatch:
   push:
-    paths:
-      - '[0-9][0-9][0-9][0-9]-*/**'
+    branches: [main]
 
 permissions:
   contents: write
@@ -12,6 +11,7 @@ permissions:
 jobs:
   move-to-leetcode:
     runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
     steps:
       - uses: actions/checkout@v4
         with:
