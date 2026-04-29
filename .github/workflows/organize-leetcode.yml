@@ -50,8 +50,11 @@ jobs:
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
             git add -A
             git commit -m "chore: move LeetCode problems to leetcode/"
-            git pull --rebase -X ours
-            git push
+            for i in 1 2 3; do
+              git push && break
+              echo "Push failed, retrying ($i/3)..."
+              git pull --rebase -X ours
+            done
           else
             echo "No changes to commit"
           fi
