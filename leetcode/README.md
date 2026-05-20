@@ -1,15 +1,11 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Tree
+## Two Pointers
 |  |
 | ------- |
-| [0110-balanced-binary-tree](https://github.com/musqat/code/tree/main/leetcode/0110-balanced-binary-tree) |
-## Depth-First Search
+| [0125-valid-palindrome](https://github.com/musqat/code/tree/main/leetcode/0125-valid-palindrome) |
+## String
 |  |
 | ------- |
-| [0110-balanced-binary-tree](https://github.com/musqat/code/tree/main/leetcode/0110-balanced-binary-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0110-balanced-binary-tree](https://github.com/musqat/code/tree/main/leetcode/0110-balanced-binary-tree) |
+| [0125-valid-palindrome](https://github.com/musqat/code/tree/main/leetcode/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
