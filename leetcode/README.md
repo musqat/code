@@ -3,21 +3,9 @@
 ## Array
 |  |
 | ------- |
-| [0169-majority-element](https://github.com/musqat/code/tree/main/leetcode/0169-majority-element) |
-## Hash Table
+| [1732-find-the-highest-altitude](https://github.com/musqat/code/tree/main/leetcode/1732-find-the-highest-altitude) |
+## Prefix Sum
 |  |
 | ------- |
-| [0169-majority-element](https://github.com/musqat/code/tree/main/leetcode/0169-majority-element) |
-## Divide and Conquer
-|  |
-| ------- |
-| [0169-majority-element](https://github.com/musqat/code/tree/main/leetcode/0169-majority-element) |
-## Sorting
-|  |
-| ------- |
-| [0169-majority-element](https://github.com/musqat/code/tree/main/leetcode/0169-majority-element) |
-## Counting
-|  |
-| ------- |
-| [0169-majority-element](https://github.com/musqat/code/tree/main/leetcode/0169-majority-element) |
+| [1732-find-the-highest-altitude](https://github.com/musqat/code/tree/main/leetcode/1732-find-the-highest-altitude) |
 <!---LeetCode Topics End-->
