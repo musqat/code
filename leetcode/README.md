@@ -1,11 +1,11 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Divide and Conquer
 |  |
 | ------- |
-| [1732-find-the-highest-altitude](https://github.com/musqat/code/tree/main/leetcode/1732-find-the-highest-altitude) |
-## Prefix Sum
+| [0191-number-of-1-bits](https://github.com/musqat/code/tree/main/leetcode/0191-number-of-1-bits) |
+## Bit Manipulation
 |  |
 | ------- |
-| [1732-find-the-highest-altitude](https://github.com/musqat/code/tree/main/leetcode/1732-find-the-highest-altitude) |
+| [0191-number-of-1-bits](https://github.com/musqat/code/tree/main/leetcode/0191-number-of-1-bits) |
 <!---LeetCode Topics End-->
