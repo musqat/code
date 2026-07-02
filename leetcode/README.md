@@ -1,11 +1,15 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Linked List
+## Array
 |  |
 | ------- |
-| [0206-reverse-linked-list](https://github.com/musqat/code/tree/main/leetcode/0206-reverse-linked-list) |
-## Recursion
+| [0217-contains-duplicate](https://github.com/musqat/code/tree/main/leetcode/0217-contains-duplicate) |
+## Hash Table
 |  |
 | ------- |
-| [0206-reverse-linked-list](https://github.com/musqat/code/tree/main/leetcode/0206-reverse-linked-list) |
+| [0217-contains-duplicate](https://github.com/musqat/code/tree/main/leetcode/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/musqat/code/tree/main/leetcode/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
