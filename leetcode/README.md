@@ -1,19 +1,11 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Tree
+## Dynamic Programming
 |  |
 | ------- |
-| [0226-invert-binary-tree](https://github.com/musqat/code/tree/main/leetcode/0226-invert-binary-tree) |
-## Depth-First Search
+| [0338-counting-bits](https://github.com/musqat/code/tree/main/leetcode/0338-counting-bits) |
+## Bit Manipulation
 |  |
 | ------- |
-| [0226-invert-binary-tree](https://github.com/musqat/code/tree/main/leetcode/0226-invert-binary-tree) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0226-invert-binary-tree](https://github.com/musqat/code/tree/main/leetcode/0226-invert-binary-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0226-invert-binary-tree](https://github.com/musqat/code/tree/main/leetcode/0226-invert-binary-tree) |
+| [0338-counting-bits](https://github.com/musqat/code/tree/main/leetcode/0338-counting-bits) |
 <!---LeetCode Topics End-->
