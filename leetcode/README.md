@@ -1,11 +1,15 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Hash Table
 |  |
 | ------- |
-| [0908-smallest-range-i](https://github.com/musqat/code/tree/main/leetcode/0908-smallest-range-i) |
+| [0202-happy-number](https://github.com/musqat/code/tree/main/leetcode/0202-happy-number) |
 ## Math
 |  |
 | ------- |
-| [0908-smallest-range-i](https://github.com/musqat/code/tree/main/leetcode/0908-smallest-range-i) |
+| [0202-happy-number](https://github.com/musqat/code/tree/main/leetcode/0202-happy-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/musqat/code/tree/main/leetcode/0202-happy-number) |
 <!---LeetCode Topics End-->
