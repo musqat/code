@@ -1,15 +1,15 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
-## Array
+## Hash Table
 |  |
 | ------- |
-| [0682-baseball-game](https://github.com/musqat/code/tree/main/leetcode/0682-baseball-game) |
-## Stack
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/musqat/code/tree/main/leetcode/3090-maximum-length-substring-with-two-occurrences) |
+## String
 |  |
 | ------- |
-| [0682-baseball-game](https://github.com/musqat/code/tree/main/leetcode/0682-baseball-game) |
-## Simulation
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/musqat/code/tree/main/leetcode/3090-maximum-length-substring-with-two-occurrences) |
+## Sliding Window
 |  |
 | ------- |
-| [0682-baseball-game](https://github.com/musqat/code/tree/main/leetcode/0682-baseball-game) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/musqat/code/tree/main/leetcode/3090-maximum-length-substring-with-two-occurrences) |
 <!---LeetCode Topics End-->
