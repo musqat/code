@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: organize-leetcode
+  cancel-in-progress: false
+
 jobs:
   move-to-leetcode:
     runs-on: ubuntu-latest
@@ -15,46 +19,99 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Move LeetCode folders to leetcode/
         run: |
-          echo "Current directory contents:"
-          ls -la
-
+          shopt -s nullglob
           mkdir -p leetcode
 
-          found=0
           for d in [0-9][0-9][0-9][0-9]-*; do
-            if [ -d "$d" ] && ls "$d"/*.py 1>/dev/null 2>&1; then
-              echo "Moving directory: $d"
-              mv "$d" "leetcode/" && found=1
+            [ -d "$d" ] || continue
+
+            if [ -d "leetcode/$d" ]; then
+              # 이미 옮겨둔 폴더에 재제출본이 다시 올라온 경우.
+              # 루트 쪽이 최신이므로 같은 이름 파일만 덮어쓰고 원본은 지운다.
+              cp -rf "$d"/. "leetcode/$d"/
+              rm -rf "$d"
+              echo "merged: $d"
+            else
+              mv "$d" leetcode/
+              echo "moved: $d"
             fi
           done
 
-          if [ $found -eq 0 ]; then
-            echo "No matching directories found to move"
-          fi
-
-      - name: Update README files
+      - name: Merge topic tables into leetcode/README.md
         run: |
-          awk '/<!---LeetCode Topics Start-->/,/<!---LeetCode Topics End-->/' README.md > leetcode/README.md
-          sed -i 's|/tree/master/\([0-9]\{4\}-\)|/tree/main/leetcode/\1|g;
-                  s|/tree/main/\([0-9]\{4\}-\)|/tree/main/leetcode/\1|g' leetcode/README.md
-          printf '# code\n알고리즘 문제풀이 저장소입니다.\n\n## Baekjoon\n\n## Programmers\n\n## LeetCode\n' > README.md
+          python3 - <<'PY'
+          import re, os, collections
+
+          MARK_START = "<!---LeetCode Topics Start-->"
+          MARK_END = "<!---LeetCode Topics End-->"
+          REPO = os.environ["GITHUB_REPOSITORY"]
+
+          def parse(path):
+              """README에서 토픽 표를 읽어 {토픽: {문제명}} 으로 돌려준다."""
+              out = collections.defaultdict(set)
+              if not os.path.exists(path):
+                  return out
+              text = open(path, encoding="utf-8").read()
+              if MARK_START not in text or MARK_END not in text:
+                  return out
+              body = text.split(MARK_START, 1)[1].split(MARK_END, 1)[0]
+              topic = None
+              for line in body.splitlines():
+                  line = line.strip()
+                  m = re.match(r"^##\s+(.*)$", line)
+                  if m:
+                      topic = m.group(1).strip()
+                      continue
+                  m = re.match(r"^\|\s*\[(.+?)\]\(.+?\)\s*\|$", line)
+                  if m and topic:
+                      out[topic].add(m.group(1))
+              return out
+
+          merged = parse("leetcode/README.md")
+          incoming = parse("README.md")
+          for topic, names in incoming.items():
+              merged[topic] |= names
+
+          if not merged:
+              print("표에 넣을 내용이 없어 README는 건드리지 않는다")
+              raise SystemExit(0)
+
+          lines = [MARK_START, "# LeetCode Topics"]
+          for topic in sorted(merged):
+              lines += [f"## {topic}", "|  |", "| ------- |"]
+              for name in sorted(merged[topic]):
+                  url = f"https://github.com/{REPO}/tree/main/leetcode/{name}"
+                  lines.append(f"| [{name}]({url}) |")
+          lines.append(MARK_END)
+
+          with open("leetcode/README.md", "w", encoding="utf-8", newline="\n") as f:
+              f.write("\n".join(lines) + "\n")
+          print(f"토픽 {len(merged)}개, 링크 {sum(len(v) for v in merged.values())}개")
+          PY
+
+      - name: Reset root README
+        run: |
+          printf '# code\n알고리즘 문제풀이 저장소입니다.\n\n## Baekjoon\n\n## Programmers\n\n## LeetCode\n\n문제별 풀이는 [leetcode/](leetcode/README.md) 에 있다.\n' > README.md
 
       - name: Commit & Push changes
         run: |
-          if git status --porcelain | grep .; then
-            git config --global user.name 'github-actions[bot]'
-            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-            git add -A
-            git commit -m "chore: move LeetCode problems to leetcode/"
-            for i in 1 2 3; do
-              git push && break
-              echo "Push failed, retrying ($i/3)..."
-              git pull --rebase -X ours
-            done
-          else
-            echo "No changes to commit"
+          if ! git status --porcelain | grep -q .; then
+            echo "커밋할 변경 없음"
+            exit 0
           fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "chore: move LeetCode problems to leetcode/"
+
+          for i in 1 2 3; do
+            git push && exit 0
+            echo "push 실패, 재시도 ($i/3)"
+            git pull --rebase --autostash origin main
+          done
+          exit 1
