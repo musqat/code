@@ -1,7 +1,5 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        visit = set()
-
         def get_next_number(n) :
             output = 0
 
