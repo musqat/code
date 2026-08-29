@@ -19,6 +19,7 @@
 | [0217-contains-duplicate](https://github.com/musqat/code/tree/main/leetcode/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/musqat/code/tree/main/leetcode/0219-contains-duplicate-ii) |
 | [0283-move-zeroes](https://github.com/musqat/code/tree/main/leetcode/0283-move-zeroes) |
+| [0303-range-sum-query-immutable](https://github.com/musqat/code/tree/main/leetcode/0303-range-sum-query-immutable) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/musqat/code/tree/main/leetcode/0448-find-all-numbers-disappeared-in-an-array) |
 | [0463-island-perimeter](https://github.com/musqat/code/tree/main/leetcode/0463-island-perimeter) |
 | [0496-next-greater-element-i](https://github.com/musqat/code/tree/main/leetcode/0496-next-greater-element-i) |
@@ -115,6 +116,7 @@
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/musqat/code/tree/main/leetcode/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/musqat/code/tree/main/leetcode/0232-implement-queue-using-stacks) |
+| [0303-range-sum-query-immutable](https://github.com/musqat/code/tree/main/leetcode/0303-range-sum-query-immutable) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -202,6 +204,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/musqat/code/tree/main/leetcode/0303-range-sum-query-immutable) |
 | [1732-find-the-highest-altitude](https://github.com/musqat/code/tree/main/leetcode/1732-find-the-highest-altitude) |
 ## Queue
 |  |
