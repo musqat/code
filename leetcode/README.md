@@ -183,6 +183,7 @@
 | [0070-climbing-stairs](https://github.com/musqat/code/tree/main/leetcode/0070-climbing-stairs) |
 | [0171-excel-sheet-column-number](https://github.com/musqat/code/tree/main/leetcode/0171-excel-sheet-column-number) |
 | [0202-happy-number](https://github.com/musqat/code/tree/main/leetcode/0202-happy-number) |
+| [0258-add-digits](https://github.com/musqat/code/tree/main/leetcode/0258-add-digits) |
 | [0412-fizz-buzz](https://github.com/musqat/code/tree/main/leetcode/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
 | [0908-smallest-range-i](https://github.com/musqat/code/tree/main/leetcode/0908-smallest-range-i) |
@@ -201,6 +202,10 @@
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/musqat/code/tree/main/leetcode/0496-next-greater-element-i) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/musqat/code/tree/main/leetcode/0258-add-digits) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -221,6 +226,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/musqat/code/tree/main/leetcode/0067-add-binary) |
+| [0258-add-digits](https://github.com/musqat/code/tree/main/leetcode/0258-add-digits) |
 | [0412-fizz-buzz](https://github.com/musqat/code/tree/main/leetcode/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
 | [0682-baseball-game](https://github.com/musqat/code/tree/main/leetcode/0682-baseball-game) |
