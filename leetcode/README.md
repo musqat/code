@@ -9,6 +9,7 @@
 | [0027-remove-element](https://github.com/musqat/code/tree/main/leetcode/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/musqat/code/tree/main/leetcode/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/musqat/code/tree/main/leetcode/0066-plus-one) |
+| [0078-subsets](https://github.com/musqat/code/tree/main/leetcode/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/musqat/code/tree/main/leetcode/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/musqat/code/tree/main/leetcode/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/musqat/code/tree/main/leetcode/0118-pascals-triangle) |
@@ -35,6 +36,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/musqat/code/tree/main/leetcode/0078-subsets) |
 | [0257-binary-tree-paths](https://github.com/musqat/code/tree/main/leetcode/0257-binary-tree-paths) |
 ## Binary Search
 |  |
@@ -67,6 +69,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/musqat/code/tree/main/leetcode/0067-add-binary) |
+| [0078-subsets](https://github.com/musqat/code/tree/main/leetcode/0078-subsets) |
 | [0136-single-number](https://github.com/musqat/code/tree/main/leetcode/0136-single-number) |
 | [0190-reverse-bits](https://github.com/musqat/code/tree/main/leetcode/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/musqat/code/tree/main/leetcode/0191-number-of-1-bits) |
