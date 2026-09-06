@@ -8,11 +8,3 @@
 ## LeetCode
 
 문제별 풀이는 [leetcode/](leetcode/README.md) 에 있다.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0228-summary-ranges](https://github.com/musqat/code/tree/master/0228-summary-ranges) |
-<!---LeetCode Topics End-->
