@@ -187,6 +187,7 @@
 | [0067-add-binary](https://github.com/musqat/code/tree/main/leetcode/0067-add-binary) |
 | [0069-sqrtx](https://github.com/musqat/code/tree/main/leetcode/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/musqat/code/tree/main/leetcode/0070-climbing-stairs) |
+| [0168-excel-sheet-column-title](https://github.com/musqat/code/tree/main/leetcode/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/musqat/code/tree/main/leetcode/0171-excel-sheet-column-number) |
 | [0202-happy-number](https://github.com/musqat/code/tree/main/leetcode/0202-happy-number) |
 | [0258-add-digits](https://github.com/musqat/code/tree/main/leetcode/0258-add-digits) |
@@ -273,6 +274,7 @@
 | [0058-length-of-last-word](https://github.com/musqat/code/tree/main/leetcode/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/musqat/code/tree/main/leetcode/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/musqat/code/tree/main/leetcode/0125-valid-palindrome) |
+| [0168-excel-sheet-column-title](https://github.com/musqat/code/tree/main/leetcode/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/musqat/code/tree/main/leetcode/0171-excel-sheet-column-number) |
 | [0242-valid-anagram](https://github.com/musqat/code/tree/main/leetcode/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/musqat/code/tree/main/leetcode/0257-binary-tree-paths) |
