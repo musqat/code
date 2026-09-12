@@ -154,6 +154,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/musqat/code/tree/main/leetcode/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/musqat/code/tree/main/leetcode/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/musqat/code/tree/main/leetcode/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/musqat/code/tree/main/leetcode/0017-letter-combinations-of-a-phone-number) |
 | [0141-linked-list-cycle](https://github.com/musqat/code/tree/main/leetcode/0141-linked-list-cycle) |
@@ -182,6 +183,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/musqat/code/tree/main/leetcode/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/musqat/code/tree/main/leetcode/0009-palindrome-number) |
+| [0012-integer-to-roman](https://github.com/musqat/code/tree/main/leetcode/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/musqat/code/tree/main/leetcode/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/musqat/code/tree/main/leetcode/0066-plus-one) |
 | [0067-add-binary](https://github.com/musqat/code/tree/main/leetcode/0067-add-binary) |
@@ -266,6 +268,7 @@
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/musqat/code/tree/main/leetcode/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/musqat/code/tree/main/leetcode/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/musqat/code/tree/main/leetcode/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/musqat/code/tree/main/leetcode/0017-letter-combinations-of-a-phone-number) |
