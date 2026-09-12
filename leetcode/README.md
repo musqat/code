@@ -4,6 +4,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/musqat/code/tree/main/leetcode/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/musqat/code/tree/main/leetcode/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/musqat/code/tree/main/leetcode/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/musqat/code/tree/main/leetcode/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/musqat/code/tree/main/leetcode/0027-remove-element) |
@@ -148,6 +149,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/musqat/code/tree/main/leetcode/0011-container-with-most-water) |
 | [0561-array-partition](https://github.com/musqat/code/tree/main/leetcode/0561-array-partition) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
 ## Hash Table
@@ -315,6 +317,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/musqat/code/tree/main/leetcode/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/musqat/code/tree/main/leetcode/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/musqat/code/tree/main/leetcode/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/musqat/code/tree/main/leetcode/0028-find-the-index-of-the-first-occurrence-in-a-string) |
