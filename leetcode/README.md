@@ -142,6 +142,10 @@
 |  |
 | ------- |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/musqat/code/tree/main/leetcode/0836-rectangle-overlap) |
 ## Graph Theory
 |  |
 | ------- |
@@ -197,6 +201,7 @@
 | [0258-add-digits](https://github.com/musqat/code/tree/main/leetcode/0258-add-digits) |
 | [0412-fizz-buzz](https://github.com/musqat/code/tree/main/leetcode/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
+| [0836-rectangle-overlap](https://github.com/musqat/code/tree/main/leetcode/0836-rectangle-overlap) |
 | [0908-smallest-range-i](https://github.com/musqat/code/tree/main/leetcode/0908-smallest-range-i) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/musqat/code/tree/main/leetcode/3513-number-of-unique-xor-triplets-i) |
