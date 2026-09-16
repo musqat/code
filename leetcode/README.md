@@ -93,6 +93,10 @@
 | [0226-invert-binary-tree](https://github.com/musqat/code/tree/main/leetcode/0226-invert-binary-tree) |
 | [0463-island-perimeter](https://github.com/musqat/code/tree/main/leetcode/0463-island-perimeter) |
 | [0617-merge-two-binary-trees](https://github.com/musqat/code/tree/main/leetcode/0617-merge-two-binary-trees) |
+## Combinatorics
+|  |
+| ------- |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/musqat/code/tree/main/leetcode/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Counting
 |  |
 | ------- |
@@ -138,6 +142,7 @@
 | [0119-pascals-triangle-ii](https://github.com/musqat/code/tree/main/leetcode/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/musqat/code/tree/main/leetcode/0121-best-time-to-buy-and-sell-stock) |
 | [0338-counting-bits](https://github.com/musqat/code/tree/main/leetcode/0338-counting-bits) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/musqat/code/tree/main/leetcode/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Game Theory
 |  |
 | ------- |
@@ -203,6 +208,7 @@
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
 | [0836-rectangle-overlap](https://github.com/musqat/code/tree/main/leetcode/0836-rectangle-overlap) |
 | [0908-smallest-range-i](https://github.com/musqat/code/tree/main/leetcode/0908-smallest-range-i) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/musqat/code/tree/main/leetcode/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/musqat/code/tree/main/leetcode/3513-number-of-unique-xor-triplets-i) |
 ## Matrix
@@ -226,6 +232,7 @@
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/musqat/code/tree/main/leetcode/0303-range-sum-query-immutable) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/musqat/code/tree/main/leetcode/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1732-find-the-highest-altitude](https://github.com/musqat/code/tree/main/leetcode/1732-find-the-highest-altitude) |
 ## Queue
 |  |
