@@ -21,6 +21,7 @@
 | [0217-contains-duplicate](https://github.com/musqat/code/tree/main/leetcode/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/musqat/code/tree/main/leetcode/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/musqat/code/tree/main/leetcode/0228-summary-ranges) |
+| [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/musqat/code/tree/main/leetcode/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/musqat/code/tree/main/leetcode/0303-range-sum-query-immutable) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/musqat/code/tree/main/leetcode/0448-find-all-numbers-disappeared-in-an-array) |
@@ -47,6 +48,7 @@
 | [0035-search-insert-position](https://github.com/musqat/code/tree/main/leetcode/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/musqat/code/tree/main/leetcode/0069-sqrtx) |
 | [0222-count-complete-tree-nodes](https://github.com/musqat/code/tree/main/leetcode/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -77,6 +79,7 @@
 | [0190-reverse-bits](https://github.com/musqat/code/tree/main/leetcode/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/musqat/code/tree/main/leetcode/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/musqat/code/tree/main/leetcode/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 | [0338-counting-bits](https://github.com/musqat/code/tree/main/leetcode/0338-counting-bits) |
 | [0461-hamming-distance](https://github.com/musqat/code/tree/main/leetcode/0461-hamming-distance) |
 | [0476-number-complement](https://github.com/musqat/code/tree/main/leetcode/0476-number-complement) |
@@ -175,6 +178,7 @@
 | [0217-contains-duplicate](https://github.com/musqat/code/tree/main/leetcode/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/musqat/code/tree/main/leetcode/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/musqat/code/tree/main/leetcode/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/musqat/code/tree/main/leetcode/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/musqat/code/tree/main/leetcode/0496-next-greater-element-i) |
 | [0575-distribute-candies](https://github.com/musqat/code/tree/main/leetcode/0575-distribute-candies) |
@@ -204,6 +208,7 @@
 | [0171-excel-sheet-column-number](https://github.com/musqat/code/tree/main/leetcode/0171-excel-sheet-column-number) |
 | [0202-happy-number](https://github.com/musqat/code/tree/main/leetcode/0202-happy-number) |
 | [0258-add-digits](https://github.com/musqat/code/tree/main/leetcode/0258-add-digits) |
+| [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 | [0412-fizz-buzz](https://github.com/musqat/code/tree/main/leetcode/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
 | [0836-rectangle-overlap](https://github.com/musqat/code/tree/main/leetcode/0836-rectangle-overlap) |
@@ -265,6 +270,7 @@
 | [0169-majority-element](https://github.com/musqat/code/tree/main/leetcode/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/musqat/code/tree/main/leetcode/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/musqat/code/tree/main/leetcode/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 | [0561-array-partition](https://github.com/musqat/code/tree/main/leetcode/0561-array-partition) |
 | [0645-set-mismatch](https://github.com/musqat/code/tree/main/leetcode/0645-set-mismatch) |
 | [0905-sort-array-by-parity](https://github.com/musqat/code/tree/main/leetcode/0905-sort-array-by-parity) |
