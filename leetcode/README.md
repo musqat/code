@@ -79,6 +79,7 @@
 | [0190-reverse-bits](https://github.com/musqat/code/tree/main/leetcode/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/musqat/code/tree/main/leetcode/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/musqat/code/tree/main/leetcode/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/musqat/code/tree/main/leetcode/0231-power-of-two) |
 | [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 | [0338-counting-bits](https://github.com/musqat/code/tree/main/leetcode/0338-counting-bits) |
 | [0461-hamming-distance](https://github.com/musqat/code/tree/main/leetcode/0461-hamming-distance) |
@@ -207,6 +208,7 @@
 | [0168-excel-sheet-column-title](https://github.com/musqat/code/tree/main/leetcode/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/musqat/code/tree/main/leetcode/0171-excel-sheet-column-number) |
 | [0202-happy-number](https://github.com/musqat/code/tree/main/leetcode/0202-happy-number) |
+| [0231-power-of-two](https://github.com/musqat/code/tree/main/leetcode/0231-power-of-two) |
 | [0258-add-digits](https://github.com/musqat/code/tree/main/leetcode/0258-add-digits) |
 | [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 | [0412-fizz-buzz](https://github.com/musqat/code/tree/main/leetcode/0412-fizz-buzz) |
@@ -250,6 +252,7 @@
 | [0002-add-two-numbers](https://github.com/musqat/code/tree/main/leetcode/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/musqat/code/tree/main/leetcode/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/musqat/code/tree/main/leetcode/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/musqat/code/tree/main/leetcode/0231-power-of-two) |
 ## Simulation
 |  |
 | ------- |
