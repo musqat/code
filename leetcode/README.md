@@ -155,6 +155,7 @@
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/musqat/code/tree/main/leetcode/0836-rectangle-overlap) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/musqat/code/tree/main/leetcode/1401-circle-and-rectangle-overlapping) |
 ## Graph Theory
 |  |
 | ------- |
@@ -215,6 +216,7 @@
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
 | [0836-rectangle-overlap](https://github.com/musqat/code/tree/main/leetcode/0836-rectangle-overlap) |
 | [0908-smallest-range-i](https://github.com/musqat/code/tree/main/leetcode/0908-smallest-range-i) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/musqat/code/tree/main/leetcode/1401-circle-and-rectangle-overlapping) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/musqat/code/tree/main/leetcode/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/musqat/code/tree/main/leetcode/3513-number-of-unique-xor-triplets-i) |
