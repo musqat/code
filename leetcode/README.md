@@ -263,6 +263,7 @@
 | [0412-fizz-buzz](https://github.com/musqat/code/tree/main/leetcode/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
 | [0682-baseball-game](https://github.com/musqat/code/tree/main/leetcode/0682-baseball-game) |
+| [3498-reverse-degree-of-a-string](https://github.com/musqat/code/tree/main/leetcode/3498-reverse-degree-of-a-string) |
 ## Sliding Window
 |  |
 | ------- |
@@ -312,6 +313,7 @@
 | [0557-reverse-words-in-a-string-iii](https://github.com/musqat/code/tree/main/leetcode/0557-reverse-words-in-a-string-iii) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/musqat/code/tree/main/leetcode/3090-maximum-length-substring-with-two-occurrences) |
+| [3498-reverse-degree-of-a-string](https://github.com/musqat/code/tree/main/leetcode/3498-reverse-degree-of-a-string) |
 ## String Matching
 |  |
 | ------- |
