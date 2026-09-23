@@ -27,6 +27,7 @@
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/musqat/code/tree/main/leetcode/0448-find-all-numbers-disappeared-in-an-array) |
 | [0463-island-perimeter](https://github.com/musqat/code/tree/main/leetcode/0463-island-perimeter) |
 | [0496-next-greater-element-i](https://github.com/musqat/code/tree/main/leetcode/0496-next-greater-element-i) |
+| [0500-keyboard-row](https://github.com/musqat/code/tree/main/leetcode/0500-keyboard-row) |
 | [0561-array-partition](https://github.com/musqat/code/tree/main/leetcode/0561-array-partition) |
 | [0575-distribute-candies](https://github.com/musqat/code/tree/main/leetcode/0575-distribute-candies) |
 | [0645-set-mismatch](https://github.com/musqat/code/tree/main/leetcode/0645-set-mismatch) |
@@ -186,6 +187,7 @@
 | [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/musqat/code/tree/main/leetcode/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/musqat/code/tree/main/leetcode/0496-next-greater-element-i) |
+| [0500-keyboard-row](https://github.com/musqat/code/tree/main/leetcode/0500-keyboard-row) |
 | [0575-distribute-candies](https://github.com/musqat/code/tree/main/leetcode/0575-distribute-candies) |
 | [0645-set-mismatch](https://github.com/musqat/code/tree/main/leetcode/0645-set-mismatch) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/musqat/code/tree/main/leetcode/3090-maximum-length-substring-with-two-occurrences) |
@@ -313,6 +315,7 @@
 | [0344-reverse-string](https://github.com/musqat/code/tree/main/leetcode/0344-reverse-string) |
 | [0412-fizz-buzz](https://github.com/musqat/code/tree/main/leetcode/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
+| [0500-keyboard-row](https://github.com/musqat/code/tree/main/leetcode/0500-keyboard-row) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/musqat/code/tree/main/leetcode/0557-reverse-words-in-a-string-iii) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/musqat/code/tree/main/leetcode/3090-maximum-length-substring-with-two-occurrences) |
