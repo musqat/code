@@ -34,6 +34,7 @@
 | [0682-baseball-game](https://github.com/musqat/code/tree/main/leetcode/0682-baseball-game) |
 | [0905-sort-array-by-parity](https://github.com/musqat/code/tree/main/leetcode/0905-sort-array-by-parity) |
 | [0908-smallest-range-i](https://github.com/musqat/code/tree/main/leetcode/0908-smallest-range-i) |
+| [0922-sort-array-by-parity-ii](https://github.com/musqat/code/tree/main/leetcode/0922-sort-array-by-parity-ii) |
 | [1732-find-the-highest-altitude](https://github.com/musqat/code/tree/main/leetcode/1732-find-the-highest-altitude) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/musqat/code/tree/main/leetcode/3513-number-of-unique-xor-triplets-i) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/musqat/code/tree/main/leetcode/3898-find-the-degree-of-each-vertex) |
@@ -285,6 +286,7 @@
 | [0561-array-partition](https://github.com/musqat/code/tree/main/leetcode/0561-array-partition) |
 | [0645-set-mismatch](https://github.com/musqat/code/tree/main/leetcode/0645-set-mismatch) |
 | [0905-sort-array-by-parity](https://github.com/musqat/code/tree/main/leetcode/0905-sort-array-by-parity) |
+| [0922-sort-array-by-parity-ii](https://github.com/musqat/code/tree/main/leetcode/0922-sort-array-by-parity-ii) |
 ## Stack
 |  |
 | ------- |
@@ -362,4 +364,5 @@
 | [0344-reverse-string](https://github.com/musqat/code/tree/main/leetcode/0344-reverse-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/musqat/code/tree/main/leetcode/0557-reverse-words-in-a-string-iii) |
 | [0905-sort-array-by-parity](https://github.com/musqat/code/tree/main/leetcode/0905-sort-array-by-parity) |
+| [0922-sort-array-by-parity-ii](https://github.com/musqat/code/tree/main/leetcode/0922-sort-array-by-parity-ii) |
 <!---LeetCode Topics End-->
