@@ -8,11 +8,3 @@
 ## LeetCode
 
 문제별 풀이는 [leetcode/](leetcode/README.md) 에 있다.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0709-to-lower-case](https://github.com/musqat/code/tree/master/0709-to-lower-case) |
-<!---LeetCode Topics End-->
