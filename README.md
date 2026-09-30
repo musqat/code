@@ -8,3 +8,11 @@
 ## LeetCode
 
 문제별 풀이는 [leetcode/](leetcode/README.md) 에 있다.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0263-ugly-number](https://github.com/musqat/code/tree/master/0263-ugly-number) |
+<!---LeetCode Topics End-->
