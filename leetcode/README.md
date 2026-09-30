@@ -89,6 +89,10 @@
 | [0476-number-complement](https://github.com/musqat/code/tree/main/leetcode/0476-number-complement) |
 | [0645-set-mismatch](https://github.com/musqat/code/tree/main/leetcode/0645-set-mismatch) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/musqat/code/tree/main/leetcode/3513-number-of-unique-xor-triplets-i) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/musqat/code/tree/main/leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -299,6 +303,7 @@
 | [0232-implement-queue-using-stacks](https://github.com/musqat/code/tree/main/leetcode/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/musqat/code/tree/main/leetcode/0496-next-greater-element-i) |
 | [0682-baseball-game](https://github.com/musqat/code/tree/main/leetcode/0682-baseball-game) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/musqat/code/tree/main/leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 ## String
 |  |
 | ------- |
@@ -321,6 +326,7 @@
 | [0500-keyboard-row](https://github.com/musqat/code/tree/main/leetcode/0500-keyboard-row) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/musqat/code/tree/main/leetcode/0557-reverse-words-in-a-string-iii) |
 | [0709-to-lower-case](https://github.com/musqat/code/tree/main/leetcode/0709-to-lower-case) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/musqat/code/tree/main/leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/musqat/code/tree/main/leetcode/3090-maximum-length-substring-with-two-occurrences) |
 | [3498-reverse-degree-of-a-string](https://github.com/musqat/code/tree/main/leetcode/3498-reverse-degree-of-a-string) |
