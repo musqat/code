@@ -113,6 +113,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/musqat/code/tree/main/leetcode/0169-majority-element) |
+| [0383-ransom-note](https://github.com/musqat/code/tree/main/leetcode/0383-ransom-note) |
 ## Counting Sort
 |  |
 | ------- |
@@ -190,6 +191,7 @@
 | [0219-contains-duplicate-ii](https://github.com/musqat/code/tree/main/leetcode/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/musqat/code/tree/main/leetcode/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
+| [0383-ransom-note](https://github.com/musqat/code/tree/main/leetcode/0383-ransom-note) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/musqat/code/tree/main/leetcode/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/musqat/code/tree/main/leetcode/0496-next-greater-element-i) |
 | [0500-keyboard-row](https://github.com/musqat/code/tree/main/leetcode/0500-keyboard-row) |
@@ -321,6 +323,7 @@
 | [0242-valid-anagram](https://github.com/musqat/code/tree/main/leetcode/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/musqat/code/tree/main/leetcode/0257-binary-tree-paths) |
 | [0344-reverse-string](https://github.com/musqat/code/tree/main/leetcode/0344-reverse-string) |
+| [0383-ransom-note](https://github.com/musqat/code/tree/main/leetcode/0383-ransom-note) |
 | [0412-fizz-buzz](https://github.com/musqat/code/tree/main/leetcode/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
 | [0500-keyboard-row](https://github.com/musqat/code/tree/main/leetcode/0500-keyboard-row) |
