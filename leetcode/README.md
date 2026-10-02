@@ -227,6 +227,7 @@
 | [0268-missing-number](https://github.com/musqat/code/tree/main/leetcode/0268-missing-number) |
 | [0412-fizz-buzz](https://github.com/musqat/code/tree/main/leetcode/0412-fizz-buzz) |
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
+| [0492-construct-the-rectangle](https://github.com/musqat/code/tree/main/leetcode/0492-construct-the-rectangle) |
 | [0836-rectangle-overlap](https://github.com/musqat/code/tree/main/leetcode/0836-rectangle-overlap) |
 | [0908-smallest-range-i](https://github.com/musqat/code/tree/main/leetcode/0908-smallest-range-i) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/musqat/code/tree/main/leetcode/1401-circle-and-rectangle-overlapping) |
