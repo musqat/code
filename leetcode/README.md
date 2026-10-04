@@ -92,6 +92,7 @@
 ## Bracket Sequences
 |  |
 | ------- |
+| [0678-valid-parenthesis-string](https://github.com/musqat/code/tree/main/leetcode/0678-valid-parenthesis-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/musqat/code/tree/main/leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 ## Breadth-First Search
 |  |
@@ -156,6 +157,7 @@
 | [0119-pascals-triangle-ii](https://github.com/musqat/code/tree/main/leetcode/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/musqat/code/tree/main/leetcode/0121-best-time-to-buy-and-sell-stock) |
 | [0338-counting-bits](https://github.com/musqat/code/tree/main/leetcode/0338-counting-bits) |
+| [0678-valid-parenthesis-string](https://github.com/musqat/code/tree/main/leetcode/0678-valid-parenthesis-string) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/musqat/code/tree/main/leetcode/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Game Theory
 |  |
@@ -175,6 +177,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/musqat/code/tree/main/leetcode/0011-container-with-most-water) |
 | [0561-array-partition](https://github.com/musqat/code/tree/main/leetcode/0561-array-partition) |
+| [0678-valid-parenthesis-string](https://github.com/musqat/code/tree/main/leetcode/0678-valid-parenthesis-string) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
 ## Hash Table
 |  |
@@ -305,6 +308,7 @@
 | [0225-implement-stack-using-queues](https://github.com/musqat/code/tree/main/leetcode/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/musqat/code/tree/main/leetcode/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/musqat/code/tree/main/leetcode/0496-next-greater-element-i) |
+| [0678-valid-parenthesis-string](https://github.com/musqat/code/tree/main/leetcode/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/musqat/code/tree/main/leetcode/0682-baseball-game) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/musqat/code/tree/main/leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 ## String
@@ -329,6 +333,7 @@
 | [0415-add-strings](https://github.com/musqat/code/tree/main/leetcode/0415-add-strings) |
 | [0500-keyboard-row](https://github.com/musqat/code/tree/main/leetcode/0500-keyboard-row) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/musqat/code/tree/main/leetcode/0557-reverse-words-in-a-string-iii) |
+| [0678-valid-parenthesis-string](https://github.com/musqat/code/tree/main/leetcode/0678-valid-parenthesis-string) |
 | [0709-to-lower-case](https://github.com/musqat/code/tree/main/leetcode/0709-to-lower-case) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/musqat/code/tree/main/leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
