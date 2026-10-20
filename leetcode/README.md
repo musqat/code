@@ -200,6 +200,7 @@
 | [0500-keyboard-row](https://github.com/musqat/code/tree/main/leetcode/0500-keyboard-row) |
 | [0575-distribute-candies](https://github.com/musqat/code/tree/main/leetcode/0575-distribute-candies) |
 | [0645-set-mismatch](https://github.com/musqat/code/tree/main/leetcode/0645-set-mismatch) |
+| [0771-jewels-and-stones](https://github.com/musqat/code/tree/main/leetcode/0771-jewels-and-stones) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/musqat/code/tree/main/leetcode/3090-maximum-length-substring-with-two-occurrences) |
 ## Linked List
 |  |
@@ -335,6 +336,7 @@
 | [0557-reverse-words-in-a-string-iii](https://github.com/musqat/code/tree/main/leetcode/0557-reverse-words-in-a-string-iii) |
 | [0678-valid-parenthesis-string](https://github.com/musqat/code/tree/main/leetcode/0678-valid-parenthesis-string) |
 | [0709-to-lower-case](https://github.com/musqat/code/tree/main/leetcode/0709-to-lower-case) |
+| [0771-jewels-and-stones](https://github.com/musqat/code/tree/main/leetcode/0771-jewels-and-stones) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/musqat/code/tree/main/leetcode/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1927-sum-game](https://github.com/musqat/code/tree/main/leetcode/1927-sum-game) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/musqat/code/tree/main/leetcode/3090-maximum-length-substring-with-two-occurrences) |
